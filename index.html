@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce</title>
+               <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+               <!-- css files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- nav starts -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Logo.png" alt="">
+          </a>
+          <button class= "smallMenuBar d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#smallMenu" aria-controls="offcanvasExample">
+            <span><i class="fa-solid fa-bars-staggered"></i></span>
+          </button>
+          <!-- *small device nav -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="smallMenu" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="./img/Logo.png" alt="" style="height: 50px;">
+              </h5>
+
+              <div class="icons d-lg-none" >
+                <ul>
+                  <li><span><i class="fa-solid fa-magnifying-glass"></i></span></li>
+                  <li><a href="#"> <i class="fa-regular fa-user"></i></a></li>
+                  <li><a href="#"> <i class="fa-regular fa-heart"></i></a></li>
+                  <li>
+                    <a href="#"> 
+                      <img src="./img/cart.svg" alt="">
+                      <span class="overlay">0</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="menu d-lg-none">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./shopdetail.html">Shop Details</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./about.html">About</a>
+                </li>
+  
+              </ul>
+
+            </div>
+          </div>
+
+          <!-- *small device nav -->
+
+
+          <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./shopdetail.html">Shop Details</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./about.html">About</a>
+              </li>
+            </ul>   
+          </div>
+
+          <div class="icons d-none d-lg-block" >
+            <ul>
+              <li><span><i class="fa-solid fa-magnifying-glass"></i></span></li>
+              <li><a href="#"> <i class="fa-regular fa-user"></i></a></li>
+              <li><a href="#"> <i class="fa-regular fa-heart"></i></a></li>
+              <li>
+                <a href="#"> 
+                  <img src="./img/cart.svg" alt="">
+                  <span class="overlay">0</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- nav ends -->
+
+    <main>
+
+    <!-- banner sarts -->
+    <section id="banner">
+      <div class="container">
+        <div class="row align-center">
+          <div class="text">
+            <h6>Mega Sale</h6>
+            <h1>Up To 45% Off</h1>
+            <p>Objectively incubate enabled innovation through leveraged <br> mindshare. Competently.</p>
+            <a href="#">Shop Now <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner ends -->
+
+    <!-- *category starts -->
+    <section id="category">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="row">
+
+             <div class="cat-card col-md-6 col-lg-12 ">
+               <a class="popUp" data-gall="category" href="./img/category1.png">
+                <img src="./img/category1.png" alt="">
+               </a>
+
+               <div class="overlay">
+                        <p>Beauty Cream</p>
+                       <span><a href="#">Shop Now <i class="bi bi-arrow-right"></i></a></span>
+               </div>
+             
+            </div>
+
+            <div class="cat-card col-md-6 col-lg-12 ">
+              <a class="popUp" data-gall="category" href="./img/category2 .png">
+                <img src="./img/category2 .png" alt="">
+              </a>
+
+              <div class="overlay">
+                <p>Beauty Cream</p>
+                <span><a href="#">Shop Now <i class="bi bi-arrow-right"></i></a></span>
+              </div>
+
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-7">
+
+            <div class="cat-card">
+              <a class="popUp" data-gall="category"  href="./img/category3.png">
+                <img src="./img/category3.png" alt="">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- *category ends -->
+
+    <!-- new products starts here -->
+    <section id="newProduct">
+      <div class="container">
+        <h3>New Arrivals Products</h3>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>-45%</span>
+                </div>
+                <img src="./img/SHOWER-GEl.webp" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Add to Cart</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Wish List</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                      <div class="tooltipProduct">
+                        <p>View</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Chart</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$150.65 <span>$450.65</span></p>
+                <h4><a href="#">Lotion Shower gel</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>sale</span>
+                </div>
+                <img src="./img/Argan Cream Body Butter.jpeg" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Add to art</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Wish List</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                      <div class="tooltipProduct">
+                        <p>View</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Chart</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$250.65</p>
+                <h4><a href="#">Argan Cream Body Butter</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <img src="./img/Matte-Face-powder-shade-10-5.webp" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Add to Cart</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Wish List</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                      <div class="tooltipProduct">
+                        <p>View</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Chart</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$175.65</p>
+                <h4><a href="#">Compact Face Powder</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>new</span>
+                </div>
+                <img src="./img/last.jpeg" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Add to Cart</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Wish List</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                      <div class="tooltipProduct">
+                        <p>View</p>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                      <div class="tooltipProduct">
+                        <p>Chart</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$75.65</p>
+                <h4><a href="#">Manicure Gel nails, makeup</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- new products ends here -->
+
+   
+
+    <!-- selling products starts -->
+    <section id="bestSelling">
+      <div class="container">
+        <h3>Best Seller Products</h3>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>-45%</span>
+                </div>
+                <img src="./img/SHOWER-GEl.webp" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$150.65 <span>$450.65</span></p>
+                <h4><a href="#">Lotion Shower gel</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>sale</span>
+                </div>
+                <img src="./img/Argan Cream Body Butter.jpeg" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$250.65</p>
+                <h4><a href="#">Argan Cream Body Butter</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <img src="./img/Matte-Face-powder-shade-10-5.webp" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$175.65</p>
+                <h4><a href="#">Compact Face Powder</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>new</span>
+                </div>
+                <img src="./img/last.jpeg" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$75.65</p>
+                <h4><a href="#">Manicure Gel nails, makeup</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <img src="./img/product5.png" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$350.65</span></p>
+                <h4><a href="#">Perfumes s, Orlane Paris</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+               
+                <img src="./img/product6.png" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$250.65</p>
+                <h4><a href="#">Natural skin care Cleanser</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>new</span>
+                </div>
+
+                <img src="./img/product7.png" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$320.65</p>
+                <h4><a href="#">Argan oil Hair conditioner</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+           
+            <div class="productCard">
+
+
+              <div class="productImg">
+
+                <div class="label">
+                  <span>new</span>
+                </div>
+                <img src="./img/product8.png" alt="">
+
+                <div class="overlay">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-eye"></i></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="productInfo">
+                <p>$185.65</p>
+                <h4><a href="#">Lip balm Oriflame Cream</a></h4>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="aTag">
+          <a href="#">See All Products<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+        </div>
+      </div>
+    </section>
+    <!-- selling productus ends -->
+
+    <!-- offer starts -->
+    <section id="offer">
+      <h3>Deals Of The Days</h3>
+      <div class="container">
+        <div class="offerContent">
+          <div class="timer">
+            <ul>
+              <li><span class="days">27</span> Days</li>
+              <li><span class="hours">14</span> Hours</li>
+              <li><span class="minutes">13</span> Minutes</li>
+              <li><span class="seconds">30</span> sec</li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class=" col-lg-6">
+              <div class="info">
+                <h6>Fairness Cream</h6>
+                <h4>Get Up To 35% Off</h4>
+                <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+                <h5>$256.35 <span>$356.35</span></h5>
+                <div class="aTag">
+                  <a href="#">Shop Now<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                             </div>
+              </div>
+            </div>
+
+            <div class=" col-lg-6">
+             <div class="info">
+               <h6>Body Lotions</h6>
+               <h4>Get Up To 55% Off</h4>
+               <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully tested relationships.</p>
+               <h5>$256.35 <span>$356.35</span></h5>
+               <div class="aTag">
+                  <a href="#">Shop Now<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+               </div>
+             </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- offer ends -->
+
+    <!-- special offer starts -->
+    <section id="sOffer">
+        <div class="container-xxl">
+          <div class="row">
+
+            <div class="text col-lg-6" style="padding-left: 100px">
+             <h6>SPECIAL OFFER</h6>
+             <h2>Beauty Inspired by Real
+              Shine In Life </h2>
+              <p>
+                Completely grow maintainable niches via tactical services. Progressively synthesize market positioning paradigms for functional architectures. Professionally aggregate.
+              </p>
+              <div class="aTag">
+                <a href="#">Explore More<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+             </div>
+            </div>
+
+            <div class="image col-lg-6">
+              <img src="./img/sOfferimg.png" alt="">
+              <span class="icon"><a href="#"><i class="fa-solid fa-play"></i></a></span>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!-- special offer ends -->
+
+    <!-- latest news starts -->
+    <section id="latest">
+      <div class="container">
+        <h3>Latest news</h3>
+        <div class="row">
+
+            <div class="latestCard col-lg-3">
+              <div class="image">
+                <img src="./img/latest.png" alt="">
+              </div>
+              <div class="text">
+                <h5>Best multi-step Beauty skin.</h5>
+                <p>Appropriately seize 24/365 markets without adaptive.</p>
+                <a href="#">Read More<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                <h4>Jan 04, 2022</h4>
+              </div>
+            </div>
+
+            <div class="latestCard col-lg-3">
+              <div class="image">
+                <img src="./img/latest.png" alt="">
+              </div>
+              <div class="text">
+                <h5>Best multi-step Beauty skin.</h5>
+                <p>Appropriately seize 24/365 markets without adaptive.</p>
+                <a href="#">Read More<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                <h4>Jan 04, 2022</h4>
+              </div>
+            </div>
+
+            <div class="latestCard col-lg-3">
+              <div class="image">
+                <img src="./img/latest.png" alt="">
+              </div>
+              <div class="text">
+                <h5>Beauty product.</h5>
+                <p>Appropriately seize 24/365 markets without adaptive.</p>
+                <a href="#">Read More<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                <h4>Jan 23, 2024</h4>
+              </div>
+            </div>
+
+            <div class="latestCard col-lg-3">
+              <div class="image">
+                <img src="./img/latest.png" alt="">
+              </div>
+              <div class="text">
+                <h5>Best skin care.</h5>
+                <p>Appropriately seize 24/365 markets without adaptive.</p>
+                <a href="#">Read More<span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                <h4>Jan 04, 2024</h4>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- latest news ends -->
+    </main>
+
+
+    <footer>
+
+      <div class="container">
+
+       <div class="card">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="cardItem">
+               <div class="row">
+                  <div class="col-lg-4"><span><i class="fa-solid fa-truck-fast"></i></span></div>
+                  <div class="col-lg-8">
+                    <h5>FREE SHIPING</h5>
+                    <p>all orders over <span>$150</span></p>
+                  </div>
+               </div>
+             </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="cardItem">
+              <div class="row">
+                <div class="col-lg-3"><span><i class="fa-regular fa-credit-card"></i></span></div>
+                <div class="col-lg-9">
+                  <h5>QUICK PAYMENT</h5>
+                  <p>100% secure payment</p>
+                </div>
+             </div>
+             </div> 
+          </div>
+
+          <div class="col-lg-3">
+            <div class="cardItem">
+              <div class="row">
+                <div class="col-lg-4"><span><i class="fa-solid fa-right-left"></i></span></div>
+                <div class="col-lg-8">
+                  <h5>FREE RETURNS</h5>
+                  <p>Return money within 30 days</p>
+                </div>
+             </div>
+             </div> 
+          </div>
+
+          <div class="col-lg-3">
+            <div class="cardItem">
+              <div class="row">
+                <div class="col-lg-4"><span><i class="fa-solid fa-phone-volume"></i></span></div>
+                <div class="col-lg-8">
+                  <h5>24/7 SUPPORT</h5>
+                  <p>Quick Support</span></p>
+                </div>
+             </div>
+             </div> 
+          </div>
+        </div>
+        </div>
+
+
+        <div class="row align-center">
+
+          <div class="col-lg-4">
+            <ul class="social_icons text-center text-lg-start ">
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 text-center"><a href="#"><img src="./img/logo white.png" alt=""></a></div>
+          <div class="col-lg-4 text-center text-lg-end"><a href="£"><img src="./img/creditcard.png" alt=""></a></div>
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="account col-lg-2">
+            <h4>My Account</h4>
+            <ul>
+              <li>
+                <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> My Account </a>
+              </li>
+              <li>
+                <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> View Cart </a>
+              </li>
+              <li>
+                <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Wishlist </a>
+              </li>
+              <li>
+                <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Compare </a>
+              </li>
+              <li>
+                <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> New Products </a>
+              </li>
+            </ul>
+
+
+          </div>
+
+          <div class="support col-lg-2">
+            <h4>Support</h4>
+             <ul>
+               <li>
+                 <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Help </a>
+               </li>
+               <li>
+                 <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Contact Us </a>
+               </li>
+               <li>
+                 <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Feedback </a>
+               </li>
+               <li>
+                 <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Customer Service </a>
+               </li>
+               <li>
+                 <a href="#"><span><i class="fa-solid fa-greater-than"></i></span> Store Locations </a>
+               </li>
+            </ul>
+          </div>
+
+          <div class="openingTime col-lg-2">
+            <h4>Opening Time</h4>
+             <ul>
+               <li>
+                <p>Mon - Tue:8AM - 10PM</p>
+               </li>
+               <li>
+                <p>Wed:8AM - 7PM</p>
+               </li>
+               <li>
+                <p>Fri:7AM - 12PM</p>
+               </li>
+               <li>
+                <p>Sat:9AM - 8PM</p>
+               </li>
+               <li>
+                <p>Sun:Closed</p>
+               </li>
+             </ul>
+          </div>
+          <div class="contact col-lg-3">
+            <h4>Contact Us</h4>
+             <ul>
+              <div class="row">
+                <div class="icon col-lg-2">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="text col-lg-10">
+                  2 no gate Chittagong,Bangladesh
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="icon col-lg-2">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="text col-lg-10">
+                  <a href="tel:01609011790">01609011790 </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="icon col-lg-2">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="text col-lg-10">
+                  <a href="mailto:sadekprince09@gmail.com info@aetor.com">sadekprince09@gmail.com </a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="newsletter col-lg-3">
+            <h4>News Letter</h4>
+            <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+            <form action="">
+
+              <div class="row">
+                <div class="col-8 px-0">
+                  <input type="text">
+                </div>
+                <div class="col-4 px-0">
+                  <button>Subscribe</button>
+                </div>
+              </div>
+
+
+            </form>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </footer>
+
+
+   <!-- external files -->
+   <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/venobox.min.js"></script>
+    <script src="./js/jquery.countdown.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
