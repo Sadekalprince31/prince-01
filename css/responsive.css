@@ -1,0 +1,64 @@
+@media (min-width: 768px) and (max-width: 991px){
+    #banner{
+        height: 500px;
+    }
+    #banner .text h1 {
+        font-size: 40px;
+    }
+    #banner .text h6 {
+        font-size: 12px;
+    }
+    #banner .text p {
+        font-size: 13px;
+    }
+    #banner .text a {
+        font-size: 10px; 
+        padding: 15px 31px;
+        margin: 0px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    #banner{
+        height: 200px;
+    }
+    #banner .row {
+        height: 0;
+    }
+    #banner .text h6 {
+        font-size: 11px;
+    }
+    #banner .text h1 {
+        font-size: 30px;
+    }
+    #banner .text p {
+        font-size: 10px;
+    }
+    #banner .text a {
+        padding: 9px 20px;
+        margin: 9px 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    #banner2 {
+       height: 364px;  
+    }
+    #banner2 .text{
+        margin: 50px 0;
+    }
+    #banner2 .text h2{
+            font-size: 25px;
+        }
+    #banner2 .text p{
+        font-size: 14px;
+    }
+    #banner2 .text a{
+        width: 125px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 12px;
+    }
+}
+
